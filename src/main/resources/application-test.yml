@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:library-test
+  sql:
+    init:
+      platform: test
+  h2:
+    console:
+      path: /h2-console
+      settings:
+        web-allow-others: true
+      enabled: true
